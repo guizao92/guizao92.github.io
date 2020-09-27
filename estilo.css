@@ -1,0 +1,180 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 58px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 180px;
+    float: left;
+    position: absolute;
+    margin-left: 20px;
+    top: 4px;
+}
+#menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 17.5 20 17.5 20;
+    color: #BBD9ED;
+    font-size: 20px;
+    font-weight: bolder;
+    }
+li:hover {
+    background-color: #005EF4;
+}
+.menu1 {
+    text-decoration: none;
+    color: #BBD9ED;
+}
+#imagem_fundo {
+    background: url("fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 110px;
+    line-height: 1px;
+    padding-bottom: 2%;
+    text-shadow: 2px 2px  black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 5px solid white;
+    text-shadow: 2px 2px  black;
+    font-size: 50px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#acao {
+    color: white;
+    border: 3px white solid;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    background-color: black;
+}
+.icones {
+    width: 50px;
+}
+section {
+    padding: 70px 20px 20px 20px;
+    float: left;
+}
+.topicos {
+    margin: 0px;
+}
+.destaque {
+    background-color:#f1f1f1;
+}
+.imgfundo {
+    width: 100%;
+}
+#biblio {
+    padding-top: 120px;
+}
+#projeto {
+    border-left: 15px  #A2BCCD solid;
+    border-right: 15px #A2BCCD solid;
+}
+#selecao {
+    border-left: 15px#BBD9ED solid;
+    border-right: 15px #BBD9ED solid;
+}
+#brasil {
+    border-left: 15px #6E8FB4 solid;
+    border-right: 15px #6E8FB4 solid;
+}
+#sobre {
+    border-left: 15px #B1D5E0 solid;
+    border-right: 15px #B1D5E0 solid;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.tres {
+    width: 22%;
+}
+.quatro {
+    width: 15%;
+}
+.title {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+    text-shadow: 1.5px 1.5px black;
+    color: #91BCED;
+}
+#nome {
+    font-size: 20px;
+}
+.justificado {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: #6E8FB4;
+    float: left;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media all and (max-width: 786px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    section {
+        padding-top: 20px;
+    }
+    .title {
+        margin-top: 20px;
+    }
+    #biblio {
+        padding-top: 30px;
+    }
+    #titulo {
+        padding-top: 30%;
+        font-size: 70px;
+    }
+    #subtitulo {
+        font-size: 40px;
+    }
+}
