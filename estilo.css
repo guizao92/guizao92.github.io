@@ -70,7 +70,19 @@ li:hover {
     background-color: black;
 }
 .icones {
-    width: 50px;
+    width: 60px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60%;
+}
+.icones:hover{
+    background-color: #91BCED;
+    transition: 1000ms;
+}
+.icones:not(:hover){
+    background-color: transparent;
+    transition: 1000ms;
 }
 section {
     padding: 70px 20px 20px 20px;
